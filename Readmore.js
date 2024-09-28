@@ -1,5 +1,4 @@
-
-  $('.navbar .menu li a').click(function() {
+$('.navbar .menu li a').click(function() {
     // applying again smooth scroll on menu items click
     $('html').css("scrollBehavior", "smooth");
   });
@@ -11,6 +10,8 @@
   });
   
   
+
+
 
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -34,23 +35,13 @@ document.addEventListener('DOMContentLoaded', function() {
   document.querySelector('.scroll-up-btn').addEventListener('click', function() {
     document.documentElement.scrollTop = 0;
   });
-
-
-
-  // typing text animation script
   var typed = new Typed(".typing", {
-    strings: ["front-end Web Developer", "web designer", "Freelancer", 'UI designer'],
+    strings: ["front-end Web Developer", "web designer", "Freelancer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true
   });
 
-  var typed = new Typed(".typing-2", {
-    strings: ["fron-end Web Developer",  "Web designer", "Freelancer"],
-    typeSpeed: 100,
-    backSpeed: 60,
-    loop: true
-  });
+  
 
-  // owl carousel script (note: owl carousel requires jQuery, so you'll need to find a vanilla JS alternative)
-});
+  });
